@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="img/laddergoat.png">
+    <meta charset="UTF-8">
+    <title>Ladder Goat - Upload</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body class="centerBody">
+<div class="header" id="Title">
+    <img src="img/laddergoat.png" class="ladderGoat">
+    <h1>LadderGoat</h1>
+    <img src="img/laddergoat.png" class="ladderGoat">
+</div>
+<div id="uploadDiv" class="fontArial">
+    <form id="uploadform">
+        <h3>Upload</h3>
+        <input class="formInput" type="text" name="title" placeholder="Name" autocomplete="off">
+        <input class="formInput" type="text" name="category" placeholder="Category" autocomplete="off">
+        <textarea rows="8" cols="60" name="details" placeholder="Description"></textarea>
+        <input class="formInput" type="file" name="mediafile" accept="video/*, image/*">
+        <input class="formInput" id="submit" type="submit" value="Upload">
+        <p class="hidden" id="done">Upload complete</p>
+        <button class="registerButton" id="cancel">Back</button>
+    </form>
+</div>
+<div id="nav">
+    <p id="user" class="hidden">
+        <strong>Username</strong>
+    </p>
+    <form id="logger" class="hidden">
+        <input class="loginForm" type="text" placeholder="Name" id="username" name="username" autocomplete="off">
+        <input class="loginForm" type="password" placeholder="Password" id="password" name="password">
+        <input id="login" class="loginForm" type="submit" name="login" value="Login">
+    </form>
+    <input class="hidden" id="logout" type="submit" value="Logout">
+    <button id="home"><strong>Main Page</strong></button>
+    <button class="hidden" id="account"><strong>Account</strong></button>
+    <button class="hidden" id="upload" disabled><strong>Upload</strong></button>
+    <button class="hidden" id="register"><strong>Register</strong></button>
+    <button id="pageRules"><strong>Page Rules</strong></button>
+    <button id="about"><strong>About</strong></button>
+</div>
+<script src="js/upload.js"></script>
+<script src="js/other.js"></script>
+</body>
+</html>

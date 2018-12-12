@@ -1,0 +1,218 @@
+body {
+    background-color: #ffbc52;
+    animation: random 20s infinite;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Verdana;
+}
+
+@keyframes  random {
+    14% { background-color: #ff765b; }
+    28% { background-color: #ffde8c; }
+    42% { background-color: #518060; }
+    56% { background-color: #7299ff; }
+    70% { background-color: #ffd6e2; }
+    84% { background-color: #bf82ff; }
+    100% { background-color: #ffbc52; }
+}
+
+button:hover {
+    background-color: #7299ff;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+button {
+    background-color: #ffbc52;
+    padding: 15%;
+    border-color: #fff8f8;
+    width: 100%;
+    margin: 1%;
+    font-size: larger;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+}
+
+textarea {
+    margin-bottom: 5%;
+}
+
+figure {
+    margin: 2%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 1%;
+}
+
+li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content{
+    max-width: 700px;
+    border: 8px darkviolet ridge;
+    padding: 17px;
+    -webkit-transition: transform 1s ease-out, border-color 1s linear;
+    transform: scale(1) ;
+}
+
+.content:hover{
+    border-color: #518060;
+    transform: scale(1.5);
+    transition: transform 1s, border-color 1s;
+}
+
+.fontArial {
+    font-family: Arial;
+}
+
+.ladderGoat {
+    height: 60px;
+    width: 60px;
+}
+
+.hidden {
+    display: none;
+}
+
+.formInput {
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 5%;
+}
+
+.loginForm {
+    margin-bottom: 5%;
+    width: 75%;
+}
+
+.centerBody {
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.registerButton {
+    background-color: #ffbc52;
+    padding: 15px 20px;
+    border-color: #fff8f8;
+    width: 100px;
+    animation: random 20s infinite;
+    font-size: medium;
+    margin: 0;
+}
+
+.p80 {
+    width: 80%;
+}
+
+#p100 {
+    width: 100%;
+}
+
+#Search {
+    width: 60%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 5%;
+}
+
+#Submit {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#registerDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#uploadDiv {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+#Title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#Kuvat {
+    width: 50%;
+}
+
+#Videot {
+    width: 50%;
+}
+
+#Content {
+    display: flex;
+    width: 84%;
+}
+
+#nav {
+    width: 15%;
+    position: fixed;
+    left: 84%;
+    top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#cancelButton {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+#done {
+    color: green;
+    width: 100%;
+    text-align: center;
+    margin-top: 0%;
+}
+
+#logout {
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 5%;
+}
+
+#user {
+    margin-right: 33%;
+    margin-left: 33%;
+}

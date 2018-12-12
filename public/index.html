@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="img/laddergoat.png">
+    <meta charset="UTF-8">
+    <title>Ladder Goat</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<div class="header" id="Title">
+    <img src="img/laddergoat.png" class="ladderGoat">
+    <h1>LadderGoat</h1>
+    <img src="img/laddergoat.png" class="ladderGoat">
+</div>
+<div id="Content">
+<div id="Kuvat">
+<h2 class="header">Kuvat</h2>
+    <ul id="imagelist">
+
+    </ul>
+</div>
+<div id="Videot">
+<h2 class="header">Videot/Gifs</h2>
+    <ul id="videolist">
+
+    </ul>
+</div>
+</div>
+<div id="nav">
+    <p id="user" class="hidden">
+        <strong>Username</strong>
+    </p>
+    <form id="logger" class="hidden">
+        <input class="loginForm" type="text" placeholder="Name" id="username" name="username" autocomplete="off">
+        <input class="loginForm" type="password" placeholder="Password" id="password" name="password">
+        <input id="login" class="loginForm" type="submit" name="login" value="Login">
+    </form>
+    <input class="hidden" id="logout" type="submit" value="Logout">
+    <form id="SearchImg" class="hidden">
+        <input id="Search" type="text" placeholder="Title" autocomplete="off">
+        <input id="Submit" type="submit" value="Search">
+    </form>
+    <button id="home" disabled><strong>Main Page</strong></button>
+    <button class="hidden" id="account"><strong>Account</strong></button>
+    <button class="hidden" id="upload"><strong>Upload</strong></button>
+    <button class="hidden" id="register"><strong>Register</strong></button>
+    <button id="pageRules"><strong>Page Rules</strong></button>
+    <button id="about"><strong>About</strong></button>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
